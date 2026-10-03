@@ -18,7 +18,7 @@
       <span>QUANTIK</span>
       <small>BY YESPANCHI</small>
     </a>
-    <nav class="nav" aria-label="Primary navigation">
+    <nav class="nav" id="primary-navigation" aria-label="Primary navigation">
       <a href="#threat">Threat</a>
       <a href="#layer">Quantum Layer</a>
       <a href="#architecture">Architecture</a>
@@ -26,7 +26,7 @@
       <a href="#faq">FAQ</a>
     </nav>
     <a class="nav-cta" href="mailto:hello@yespanchi.com?subject=Quantik%20Enquiry">Talk to Quantik <span>↗</span></a>
-    <button class="menu" id="menuBtn" aria-label="Open menu"><span></span><span></span></button>
+    <button class="menu" id="menuBtn" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open menu"><span></span><span></span></button>
   </header>
 
   <main>
@@ -125,7 +125,7 @@
         <div class="flow-node"><small>04</small><strong>SECURE CORE</strong><span>Bank / FinTech</span></div>
       </div>
       <div class="terminal reveal">
-        <div class="terminal-bar"><span></span><span></span><span></span><b>quantik / security-stream</b><em>LIVE</em></div>
+        <div class="terminal-bar"><span></span><span></span><span></span><b>quantik / security-stream</b><em>CONCEPT / SECURITY FLOW</em></div>
         <div class="terminal-body">
           <p><i>16:04:21</i> transaction.request <strong>TXN_8F42</strong></p>
           <p><i>16:04:21</i> crypto.policy <strong>ML-DSA / FIPS-204</strong></p>
@@ -146,12 +146,12 @@
     <section class="sectors" id="sectors">
       <div class="section-head reveal"><div class="eyebrow">WHERE IT FITS</div><h2>Security for systems where trust has to last.</h2><p>Quantik's public positioning centers on digital payments and financial infrastructure, with a broader quantum-safe security direction across enterprise environments.</p></div>
       <div class="sector-grid">
-        <div class="sector active reveal"><span>01</span><b>Banking</b><p>Quantum-safe readiness for critical financial infrastructure.</p><em>↗</em></div>
-        <div class="sector reveal"><span>02</span><b>FinTech</b><p>Security controls for modern payments and application ecosystems.</p><em>↗</em></div>
-        <div class="sector reveal"><span>03</span><b>Payment Infrastructure</b><p>Protect transaction flows while planning migration paths.</p><em>↗</em></div>
-        <div class="sector reveal"><span>04</span><b>Enterprise</b><p>Prepare long-lived sensitive data and cryptographic dependencies.</p><em>↗</em></div>
-        <div class="sector reveal"><span>05</span><b>Government</b><p>Support security transition planning for sensitive systems.</p><em>↗</em></div>
-        <div class="sector reveal"><span>06</span><b>Digital Platforms</b><p>Extend quantum readiness across connected digital services.</p><em>↗</em></div>
+        <div class="sector active reveal"><span>01</span><b>Banking</b><p>Quantum-safe readiness for critical financial infrastructure.</p></div>
+        <div class="sector reveal"><span>02</span><b>FinTech</b><p>Security controls for modern payments and application ecosystems.</p></div>
+        <div class="sector reveal"><span>03</span><b>Payment Infrastructure</b><p>Protect transaction flows while planning migration paths.</p></div>
+        <div class="sector reveal"><span>04</span><b>Enterprise</b><p>Prepare long-lived sensitive data and cryptographic dependencies.</p></div>
+        <div class="sector reveal"><span>05</span><b>Government</b><p>Support security transition planning for sensitive systems.</p></div>
+        <div class="sector reveal"><span>06</span><b>Digital Platforms</b><p>Extend quantum readiness across connected digital services.</p></div>
       </div>
     </section>
 
@@ -187,7 +187,7 @@
   <footer class="footer">
     <div><a class="brand footer-brand" href="#top"><span class="brand-mark"><i></i><i></i><i></i></span><span>QUANTIK</span></a><p>Quantum-safe security for digital payments and financial infrastructure.</p></div>
     <div class="footer-links"><a href="#threat">Threat</a><a href="#layer">Quantum Layer</a><a href="#architecture">Architecture</a><a href="#sectors">Sectors</a><a href="#faq">FAQ</a></div>
-    <div class="footer-meta"><span>QUANTIK BY YESPANCHI</span><span>© 2026 YesPanchi Tech Services Private Limited</span></div>
+    <div class="footer-meta"><span>QUANTIK BY YESPANCHI</span><span>© <span id="year">2026</span> YesPanchi Tech Services Private Limited</span></div>
   </footer>
   <script src="script.js"></script>
 </body>

@@ -23,3 +23,6 @@ menuBtn?.addEventListener('click', () => {
 });
 
 document.querySelectorAll('.nav a').forEach(link => link.addEventListener('click', () => nav.classList.remove('mobile-open')));
+
+const yearEl = document.getElementById('year');
+if (yearEl) yearEl.textContent = new Date().getFullYear();
